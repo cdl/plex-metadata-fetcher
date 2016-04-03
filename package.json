@@ -1,0 +1,17 @@
+{
+  "name": "plex-metadata-fetcher",
+  "version": "1.0.0",
+  "description": "Fetch metadata for a passed file from TheMovieDB/TheTVDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "denodeify": "^1.2.1",
+    "dotenv": "^2.0.0",
+    "moviedb": "^0.2.3",
+    "node-tvdb": "^1.6.5"
+  }
+}
